@@ -1,0 +1,22 @@
+# Generated media / scratch
+*.mp3
+*.mp4
+*.png
+*.wav
+/tmp/
+tmp/
+
+# Local, user-specific config (copy config.example.md and edit)
+config.local.md
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
