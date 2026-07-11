@@ -180,23 +180,6 @@ editor.
 
 ---
 
-## Design notes & limitations
-
-- **It's an editor, not an index.** The value is in the filtering and the plain-
-  language rewrite, not in exhaustive coverage. It surfaces the top ~5, not
-  everything.
-- **LLM judgement is fallible.** Relevance scores and one-line summaries are the
-  model's read of the abstract. The note deliberately includes a "worth noting"
-  caveat per paper to keep it a filter, not a hype feed — but verify before you
-  cite.
-- **Date windows are heuristics.** The 4-day EDAT window trades a little
-  duplication (handled by the de-dup step) for not missing epub-ahead-of-print
-  papers. Adjust in Step 2 if your journals behave differently.
-- **APIs are rate-limited and unauthenticated.** Be polite; the defaults
-  (`max_results=40`, top-30 HN items) are well within limits.
-
----
-
 ## Contributing
 
 Issues and PRs welcome — especially additional source integrations (bioRxiv,
