@@ -1,5 +1,7 @@
 # daily-papers
 
+**English** · [简体中文](README.zh-CN.md)
+
 A [Claude Code](https://claude.com/claude-code) slash command that builds you a
 personalized morning research briefing — every day, from the source, in your
 field. Point it at your interests and it will:
